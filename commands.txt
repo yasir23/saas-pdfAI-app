@@ -1,0 +1,6 @@
+npx drizzle-kit push:pg
+npx drizzle-kit studio http://127.0.0.1:4983/
+
+stripe listen --forward-to localhost:4242/webhook
+
+1:54:06 Pinecone
